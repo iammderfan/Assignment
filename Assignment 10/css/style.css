@@ -7,8 +7,7 @@
 body{
 	font-family: arial;
 }
-
-.outer{
+.layout{
 	width: 100%;
 }
 .row1{
@@ -28,8 +27,8 @@ body{
 	margin: auto;
 }
 .heading h1{
-	padding-bottom: 20px;
 	font-size: 45px;
+	padding-bottom: 20px;
 }
 .heading p{
 	font-size: 18px;
@@ -57,4 +56,46 @@ body{
 .border{
 	border-right: 2px solid gray;
 	box-sizing: border-box;
+}
+.row2{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}.row2_left{
+	width: 50%;
+	float: left;
+}
+.row2_left h1{
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-left: 20px;
+	box-sizing: border-box;
+
+}
+.row2_left p{
+	font-size: 16px;
+	font-weight: 400;
+	margin: 40px;
+}
+.row2_left .box{
+	margin-bottom: 16px;
+	margin-left: 16px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+	box-shadow: 2px;
+}
+.row2_left .box h4{
+	font-size: 18px;
+	font-weight: 600;
+}
+.row2_right{
+	width: 50%;
+	float: left;
+}
+.row2_right div{
+	width: 500px;
+	margin: 100px auto;
 }
